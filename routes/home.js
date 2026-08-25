@@ -4,6 +4,7 @@ import { listAll, getDb } from "../lib/db.js";
 
 export function renderHome(lang) {
   const services = listAll("services").slice(0, 6);
+  const products = listAll("products").slice(0, 3);
   const projects = listAll("projects").slice(0, 3);
   const testimonials = listAll("testimonials");
   const blog = listAll("blog").slice(0, 3);
@@ -73,6 +74,28 @@ export function renderHome(lang) {
 
   <section class="block">
     <div class="container">
+      ${sectionHeading(t(lang, "products_title"), t(lang, "products_subtitle"))}
+      <div class="grid-3">
+        ${products
+          .map(
+            (p) => `
+          <div class="card">
+            <div class="card-media">${icon(p.icon, 40)}</div>
+            <div class="card-body">
+              <h3><a href="/products/${esc(p.slug)}?lang=${lang}" style="color:inherit">${esc(pick(p.title, lang))}</a></h3>
+              <p>${esc(pick(p.summary, lang))}</p>
+              <div class="card-foot"><a href="/products/${esc(p.slug)}?lang=${lang}">${esc(t(lang, "cta_more"))} &rarr;</a></div>
+            </div>
+          </div>`
+          )
+          .join("")}
+      </div>
+      <p style="text-align:center;margin-top:34px"><a class="btn btn-dark" href="/products?lang=${lang}">${esc(t(lang, "cta_all_products"))}</a></p>
+    </div>
+  </section>
+
+  <section class="block alt">
+    <div class="container">
       ${sectionHeading(t(lang, "projects_title"), t(lang, "projects_subtitle"))}
       <div class="grid-3">
         ${projects
@@ -93,7 +116,7 @@ export function renderHome(lang) {
     </div>
   </section>
 
-  <section class="block alt">
+  <section class="block">
     <div class="container">
       ${sectionHeading(t(lang, "clients_title"))}
       <div class="clients-strip">
@@ -102,7 +125,7 @@ export function renderHome(lang) {
     </div>
   </section>
 
-  <section class="block">
+  <section class="block alt">
     <div class="container">
       ${sectionHeading(t(lang, "why_title"))}
       <div class="why-grid">
@@ -117,7 +140,7 @@ export function renderHome(lang) {
     </div>
   </section>
 
-  <section class="block alt">
+  <section class="block">
     <div class="container">
       ${sectionHeading(t(lang, "testimonials_title"))}
       <div class="grid-3">
@@ -138,7 +161,7 @@ export function renderHome(lang) {
     </div>
   </section>
 
-  <section class="block">
+  <section class="block alt">
     <div class="container">
       ${sectionHeading(t(lang, "blog_title"), t(lang, "blog_subtitle"))}
       <div class="grid-3">
