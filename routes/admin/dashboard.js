@@ -4,6 +4,7 @@ import { listAll } from "../../lib/db.js";
 
 export function dashboardPage({ flash } = {}) {
   const services = listAll("services");
+  const products = listAll("products");
   const projects = listAll("projects");
   const blog = listAll("blog");
   const messages = listAll("messages");
@@ -14,6 +15,7 @@ export function dashboardPage({ flash } = {}) {
   const body = `
     <div class="stat-cards">
       <div class="stat-card"><b>${services.length}</b><span>Xizmatlar</span></div>
+      <div class="stat-card"><b>${products.length}</b><span>Mahsulotlar</span></div>
       <div class="stat-card"><b>${projects.length}</b><span>Loyihalar</span></div>
       <div class="stat-card"><b>${blog.length}</b><span>Blog maqolalari</span></div>
       <div class="stat-card"><b>${messages.length + leads.length + applications.length}</b><span>Jami murojaatlar</span></div>
@@ -35,6 +37,7 @@ export function dashboardPage({ flash } = {}) {
       <h3>Tezkor havolalar</h3>
       <div style="display:flex;gap:10px;flex-wrap:wrap">
         <a class="btn btn-outline btn-sm" style="color:var(--color-ink);border-color:var(--color-line)" href="/admin/services/new">+ Xizmat</a>
+        <a class="btn btn-outline btn-sm" style="color:var(--color-ink);border-color:var(--color-line)" href="/admin/products/new">+ Mahsulot</a>
         <a class="btn btn-outline btn-sm" style="color:var(--color-ink);border-color:var(--color-line)" href="/admin/projects/new">+ Loyiha</a>
         <a class="btn btn-outline btn-sm" style="color:var(--color-ink);border-color:var(--color-line)" href="/admin/blog/new">+ Maqola</a>
         <a class="btn btn-outline btn-sm" style="color:var(--color-ink);border-color:var(--color-line)" href="/admin/vacancies/new">+ Vakansiya</a>
