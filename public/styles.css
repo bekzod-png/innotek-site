@@ -269,7 +269,7 @@ section.block.alt { background: var(--color-surface-alt); }
 .badge-gray { background: var(--color-surface-alt); color: var(--color-muted); }
 .login-wrap { min-height: 100vh; display: flex; align-items: center; justify-content: center; background: var(--color-primary-dark); padding: 20px; }
 .login-card { background: #fff; border-radius: var(--radius-lg); padding: 36px; width: 100%; max-width: 380px; }
-.stat-cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 26px; }
+.stat-cards { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; margin-bottom: 26px; }
 .stat-card { background: #fff; border: 1px solid var(--color-line); border-radius: var(--radius-md); padding: 20px; }
 .stat-card b { font-size: 1.7rem; color: var(--color-primary); display: block; }
 .stat-card span { color: var(--color-muted); font-size: .84rem; }
