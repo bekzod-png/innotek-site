@@ -144,6 +144,170 @@
       "priceFrom": 450000
     }
   ],
+  "products": [
+    {
+      "id": 1,
+      "slug": "palletli-stellajlar",
+      "category": "shelving",
+      "icon": "shelf",
+      "title": {
+        "uz": "Palletli (mega) stellajlar",
+        "ru": "Паллетные (мега) стеллажи",
+        "en": "Pallet (mega) racking"
+      },
+      "summary": {
+        "uz": "Yirik omborlar uchun og'ir yukli metall stellaj tizimi, forklift bilan ishlashga moslashgan.",
+        "ru": "Металлическая стеллажная система для крупных складов, рассчитана на работу с погрузчиком.",
+        "en": "Heavy-duty metal racking for large warehouses, designed for forklift access."
+      },
+      "description": {
+        "uz": "Palletli stellajlar yirik ombor va logistika markazlari uchun mo'ljallangan — har bir bo'lim bir necha tonnagacha yuk ko'tara oladi. Konstruksiya birinchi sinf po'latdan tayyorlanadi va tsinklanadi, bu esa zanglashga qarshi himoya va uzoq muddat xizmat qilishni ta'minlaydi. O'lcham va bo'linmalar soni obyektingiz hajmiga qarab individual loyihalanadi.",
+        "ru": "Паллетные стеллажи предназначены для крупных складов и логистических центров — каждая секция выдерживает нагрузку до нескольких тонн. Конструкция изготавливается из стали первого сорта с оцинковкой, что обеспечивает защиту от коррозии и долгий срок службы. Размеры и количество ярусов проектируются индивидуально под ваш объект.",
+        "en": "Pallet racking is designed for large warehouses and logistics centers — each section holds a load of several tons. The structure is made from first-grade galvanized steel, providing corrosion resistance and a long service life. Dimensions and tier count are custom-designed for your facility."
+      },
+      "specs": {
+        "uz": "Yuk ko'tarish: 4 tonnagacha / bo'lim",
+        "ru": "Нагрузка: до 4 тонн / секция",
+        "en": "Load: up to 4 tons / section"
+      },
+      "priceFrom": 850000
+    },
+    {
+      "id": 2,
+      "slug": "arxiv-savdo-stellajlari",
+      "category": "shelving",
+      "icon": "shelf",
+      "title": {
+        "uz": "Arxiv va savdo stellajlari",
+        "ru": "Архивные и торговые стеллажи",
+        "en": "Archive & retail shelving"
+      },
+      "summary": {
+        "uz": "Hujjatlar, arxiv va do'kon javonlari uchun yengil-o'rta yukli, sozlanuvchi stellajlar.",
+        "ru": "Стеллажи лёгкого и среднего типа для документов, архивов и торговых залов, с регулируемыми полками.",
+        "en": "Light-to-medium duty adjustable shelving for archives, document storage and retail floors."
+      },
+      "description": {
+        "uz": "Bu stellajlar tor joylarga moslashuvchan bo'lib, javonlar balandligini ehtiyojga qarab sozlash imkonini beradi. Ofis arxivlari, kutubxonalar va do'kon savdo zallarida keng qo'llaniladi. Yig'ish-o'rnatish tez va soddaligi bilan ajralib turadi.",
+        "ru": "Эти стеллажи компактны и позволяют регулировать высоту полок по необходимости. Широко используются в офисных архивах, библиотеках и торговых залах магазинов. Отличаются быстрой и простой сборкой.",
+        "en": "This shelving is compact and allows shelf height to be adjusted as needed. Widely used in office archives, libraries and retail sales floors. Known for quick, simple assembly."
+      },
+      "specs": {
+        "uz": "Yuk ko'tarish: 150-400 kg / javon",
+        "ru": "Нагрузка: 150-400 кг / полка",
+        "en": "Load: 150-400 kg / shelf"
+      },
+      "priceFrom": 320000
+    },
+    {
+      "id": 3,
+      "slug": "drive-in-stellajlar",
+      "category": "shelving",
+      "icon": "shelf",
+      "title": {
+        "uz": "Drive-in stellajlar",
+        "ru": "Драйв-ин стеллажи",
+        "en": "Drive-in racking"
+      },
+      "summary": {
+        "uz": "Zich joylashtirish uchun forklift ombor ichiga kirib yuklaydigan yuqori zichlikdagi stellaj tizimi.",
+        "ru": "Высокоплотная стеллажная система, где погрузчик заезжает внутрь конструкции для загрузки.",
+        "en": "High-density racking where the forklift drives into the structure to load and unload."
+      },
+      "description": {
+        "uz": "Drive-in tizimi bir xil turdagi mahsulot katta hajmda saqlanadigan omborlar uchun ideal — maydondan maksimal darajada foydalanish imkonini beradi, chunki oraliq yo'laklar minimallashtiriladi.",
+        "ru": "Система drive-in идеальна для складов с большим объёмом однотипной продукции — позволяет максимально эффективно использовать площадь за счёт минимизации проходов между рядами.",
+        "en": "The drive-in system is ideal for warehouses storing large volumes of uniform product — it maximizes space use by minimizing aisles between rows."
+      },
+      "specs": {
+        "uz": "Yuk ko'tarish: 3 tonnagacha / bo'lim",
+        "ru": "Нагрузка: до 3 тонн / секция",
+        "en": "Load: up to 3 tons / section"
+      },
+      "priceFrom": 1100000
+    },
+    {
+      "id": 4,
+      "slug": "metall-shkaflar",
+      "category": "furniture",
+      "icon": "cabinet",
+      "title": {
+        "uz": "Metall shkaflar",
+        "ru": "Металлические шкафы",
+        "en": "Metal cabinets"
+      },
+      "summary": {
+        "uz": "Ofis va ishlab chiqarish binolari uchun qulflanadigan metall jihoz shkaflari.",
+        "ru": "Запирающиеся металлические шкафы для офисов и производственных помещений.",
+        "en": "Lockable metal cabinets for offices and production facilities."
+      },
+      "description": {
+        "uz": "Hujjat va jihozlarni xavfsiz saqlash uchun mo'ljallangan, bir yoki ikki eshikli variantlarda ishlab chiqariladi. Kuchli po'lat korpus va zamonaviy qulflash tizimi bilan jihozlangan.",
+        "ru": "Предназначены для безопасного хранения документов и оборудования, выпускаются в одно- и двухдверных вариантах. Прочный стальной корпус и современная система запирания.",
+        "en": "Designed for secure storage of documents and equipment, available in single- and double-door versions. Sturdy steel body with a modern locking system."
+      },
+      "specs": {
+        "uz": "O'lchamlar: 900x400x1850 mm (standart)",
+        "ru": "Размеры: 900x400x1850 мм (стандарт)",
+        "en": "Dimensions: 900x400x1850 mm (standard)"
+      },
+      "priceFrom": 950000
+    },
+    {
+      "id": 5,
+      "slug": "lokerlar",
+      "category": "furniture",
+      "icon": "cabinet",
+      "title": {
+        "uz": "Lokerlar (garderob shkaflari)",
+        "ru": "Локеры (шкафчики для одежды)",
+        "en": "Lockers"
+      },
+      "summary": {
+        "uz": "Sport zallari, korxonalar va bilim yurtlari uchun individual bo'linmali kiyim shkaflari.",
+        "ru": "Индивидуальные шкафчики для спортзалов, предприятий и учебных заведений.",
+        "en": "Individual compartment lockers for gyms, workplaces and educational facilities."
+      },
+      "description": {
+        "uz": "Har bir foydalanuvchi uchun alohida, qulflanadigan bo'linma — 2, 4 yoki 6 sektsiyali variantlarda mavjud. Namlikka chidamli qoplama bilan ishlab chiqariladi.",
+        "ru": "Отдельное запираемое отделение для каждого пользователя — доступны варианты на 2, 4 или 6 секций. Изготавливаются с влагостойким покрытием.",
+        "en": "A separate lockable compartment for each user — available in 2, 4, or 6-section configurations. Manufactured with a moisture-resistant coating."
+      },
+      "specs": {
+        "uz": "Sektsiyalar: 2 / 4 / 6",
+        "ru": "Секции: 2 / 4 / 6",
+        "en": "Sections: 2 / 4 / 6"
+      },
+      "priceFrom": 280000
+    },
+    {
+      "id": 6,
+      "slug": "metall-stol-verstak",
+      "category": "furniture",
+      "icon": "cabinet",
+      "title": {
+        "uz": "Metall stol va verstaklar",
+        "ru": "Металлические столы и верстаки",
+        "en": "Metal tables & workbenches"
+      },
+      "summary": {
+        "uz": "Ishlab chiqarish sexlari va ustaxonalar uchun bardoshli metall ish stollari.",
+        "ru": "Прочные металлические рабочие столы для производственных цехов и мастерских.",
+        "en": "Durable metal work tables for production shops and workshops."
+      },
+      "description": {
+        "uz": "Og'ir yuklarga bardosh beruvchi konstruksiya, ehtiyojga qarab tortmalar va pastki javonlar bilan jihozlanishi mumkin.",
+        "ru": "Конструкция, выдерживающая большие нагрузки, может комплектоваться ящиками и нижними полками по необходимости.",
+        "en": "A heavy-load-bearing structure that can be fitted with drawers and lower shelves as needed."
+      },
+      "specs": {
+        "uz": "Yuk ko'tarish: 500 kg gacha",
+        "ru": "Нагрузка: до 500 кг",
+        "en": "Load: up to 500 kg"
+      },
+      "priceFrom": 410000
+    }
+  ],
   "projects": [
     {
       "id": 1,
