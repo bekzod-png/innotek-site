@@ -17,6 +17,7 @@ import { getDb } from "./lib/db.js";
 import { renderHome } from "./routes/home.js";
 import { renderAboutPage } from "./routes/about.js";
 import { renderServicesList, renderServiceDetail } from "./routes/services.js";
+import { renderProductsList, renderProductDetail } from "./routes/products.js";
 import { renderProjectsList, renderProjectDetail } from "./routes/projects.js";
 import { renderCalculator } from "./routes/calculator.js";
 import { renderBlogList, renderBlogDetail } from "./routes/blog.js";
@@ -34,6 +35,7 @@ import * as BlogAdmin from "./routes/admin/blog.js";
 import * as FaqAdmin from "./routes/admin/faq.js";
 import * as VacAdmin from "./routes/admin/vacancies.js";
 import * as ExpAdmin from "./routes/admin/experts.js";
+import * as ProdAdmin from "./routes/admin/products.js";
 import * as MsgAdmin from "./routes/admin/messages.js";
 import * as SettingsAdmin from "./routes/admin/settings.js";
 
@@ -230,6 +232,15 @@ async function handle(req, res) {
       if (!body) return sendHtml(res, 404, notFound(lang, "/services"));
       return sendHtml(res, 200, layout({ lang, path: "/services", title: t_title(lang, "services"), body }));
     }
+    if (req.method === "GET" && pathname === "/products") {
+      const category = url.searchParams.get("category") || null;
+      return sendHtml(res, 200, layout({ lang, path: "/products", title: t_title(lang, "products"), body: renderProductsList(lang, category) }));
+    }
+    if (req.method === "GET" && (m = matchPath("/products/:slug", pathname))) {
+      const body = renderProductDetail(lang, m.slug);
+      if (!body) return sendHtml(res, 404, notFound(lang, "/products"));
+      return sendHtml(res, 200, layout({ lang, path: "/products", title: t_title(lang, "products"), body }));
+    }
     if (req.method === "GET" && pathname === "/projects") {
       const category = url.searchParams.get("category") || null;
       return sendHtml(res, 200, layout({ lang, path: "/projects", title: t_title(lang, "projects"), body: renderProjectsList(lang, category) }));
@@ -347,7 +358,8 @@ function t_title(lang, key) {
   const titles = {
     home: { uz: "Bosh sahifa", ru: "Главная", en: "Home" },
     about: { uz: "Biz haqimizda", ru: "О компании", en: "About" },
-    services: { uz: "Xizmatlar", ru: "Услуги", en: "Services" },
+    services: { uz: "Katalog", ru: "Каталог", en: "Catalog" },
+    products: { uz: "Mahsulotlar", ru: "Продукция", en: "Products" },
     projects: { uz: "Loyihalar", ru: "Проекты", en: "Projects" },
     calculator: { uz: "Kalkulyator", ru: "Калькулятор", en: "Calculator" },
     blog: { uz: "Blog", ru: "Блог", en: "Blog" },
@@ -482,6 +494,29 @@ async function handleAdmin(req, res, pathname, url) {
   if ((m = matchPath("/admin/vacancies/:id/delete", pathname)) && req.method === "POST") {
     await VacAdmin.deleteVacancy(m.id);
     return redirect(res, "/admin/vacancies"), true;
+  }
+
+  // Products
+  if (pathname === "/admin/products" && req.method === "GET") return sendHtml(res, 200, ProdAdmin.listProductsPage()), true;
+  if (pathname === "/admin/products/new" && req.method === "GET") return sendHtml(res, 200, ProdAdmin.productFormPage()), true;
+  if (pathname === "/admin/products/new" && req.method === "POST") {
+    await ProdAdmin.createProduct(await parseForm(req));
+    return redirect(res, "/admin/products"), true;
+  }
+  if ((m = matchPath("/admin/products/:id/edit", pathname))) {
+    if (req.method === "GET") {
+      const product = ProdAdmin.getProduct(m.id);
+      if (!product) return false;
+      return sendHtml(res, 200, ProdAdmin.productFormPage({ product })), true;
+    }
+    if (req.method === "POST") {
+      await ProdAdmin.updateProduct(m.id, await parseForm(req));
+      return redirect(res, "/admin/products"), true;
+    }
+  }
+  if ((m = matchPath("/admin/products/:id/delete", pathname)) && req.method === "POST") {
+    await ProdAdmin.deleteProduct(m.id);
+    return redirect(res, "/admin/products"), true;
   }
 
   // Experts
