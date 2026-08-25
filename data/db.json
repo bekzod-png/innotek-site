@@ -1,0 +1,660 @@
+{
+  "settings": {
+    "phonePrimary": "+998 71 200 10 10",
+    "phoneSecondary": "+998 90 123 45 67",
+    "email": "info@innotek.uz",
+    "address": "Toshkent sh., Mirzo Ulug'bek tumani, Amir Temur ko'chasi 1-uy",
+    "telegram": "https://t.me/innotek_invest",
+    "instagram": "https://instagram.com/innotek_invest",
+    "mapEmbed": "",
+    "adminPasswordHash": "572dce2d4929ab95e3ab37981512bd1d:42503ec697044baa8fc39aa45acc3203c1f597a16e16192b0ebb2bdfd897a7759849aaed70fc0f8d987dde23e0756ce7d8559607b7f306647c58a8edfb92b2b9",
+    "sessionSecret": "3d0c1c602f7b41be41b2dcd152bb8dd08c3c4ffdb212e0b786f551969ffcde3c",
+    "stats": {
+      "projects": "180+",
+      "experience": "9",
+      "specialists": "45",
+      "warranty": "10"
+    }
+  },
+  "services": [
+    {
+      "id": 1,
+      "slug": "loyihalash",
+      "icon": "blueprint",
+      "title": {
+        "uz": "Loyihalash",
+        "ru": "Проектирование",
+        "en": "Design"
+      },
+      "summary": {
+        "uz": "Arxitektura va konstruktiv loyihalar, smeta hujjatlari — davlat ekspertizasidan o'tishga tayyor.",
+        "ru": "Архитектурные и конструктивные проекты, сметная документация — готовы к прохождению госэкспертизы.",
+        "en": "Architectural and structural design, cost estimates — ready for state expert review."
+      },
+      "description": {
+        "uz": "Bizning loyihalash bo'limi arxitektura, konstruktiv va muhandislik bo'limlarini o'z ichiga olgan to'liq loyiha hujjatlarini tayyorlaydi.\n\nIshlar zamonaviy CAD/BIM dasturlarida bajariladi, natijada aniq smeta va qurilishga tayyor chizmalar olasiz. Barcha loyihalar O'zbekiston Respublikasi shaharsozlik me'yorlariga mos ravishda ishlab chiqiladi.",
+        "ru": "Наш проектный отдел готовит полный пакет проектной документации, включая архитектурный, конструктивный и инженерный разделы.\n\nРаботы выполняются в современных CAD/BIM-программах — на выходе вы получаете точную смету и чертежи, готовые к строительству. Все проекты разрабатываются в соответствии с градостроительными нормами Республики Узбекистан.",
+        "en": "Our design department prepares complete project documentation, including architectural, structural and engineering sections.\n\nWork is done in modern CAD/BIM software, giving you an accurate estimate and construction-ready drawings. All designs comply with Uzbekistan's urban planning codes."
+      },
+      "priceFrom": 25000
+    },
+    {
+      "id": 2,
+      "slug": "qurilish-montaj",
+      "icon": "crane",
+      "title": {
+        "uz": "Qurilish-montaj ishlari",
+        "ru": "Строительно-монтажные работы",
+        "en": "Construction & installation"
+      },
+      "summary": {
+        "uz": "Poydevordan tortib pardozgacha — to'liq qurilish tsikli, sifat nazorati va belgilangan muddatlarda.",
+        "ru": "От фундамента до отделки — полный цикл строительства с контролем качества и соблюдением сроков.",
+        "en": "From foundation to finishing — the full construction cycle, with quality control and on-time delivery."
+      },
+      "description": {
+        "uz": "Malakali brigadalarimiz turar-joy, tijorat va sanoat obyektlarida qurilish-montaj ishlarini bajaradi.\n\nHar bir bosqichda muhandis-nazoratchi ishtirok etadi, ishlatilgan materiallarga sertifikatlar taqdim etiladi. Barcha ishlarga 5 yilgacha kafolat beriladi.",
+        "ru": "Наши квалифицированные бригады выполняют строительно-монтажные работы на жилых, коммерческих и промышленных объектах.\n\nНа каждом этапе присутствует инженер технического надзора, на используемые материалы предоставляются сертификаты. На все работы даётся гарантия до 5 лет.",
+        "en": "Our skilled crews carry out construction and installation work on residential, commercial and industrial sites.\n\nAn engineering supervisor is present at every stage, and certificates are provided for all materials used. All work carries up to a 5-year warranty."
+      },
+      "priceFrom": 3200000
+    },
+    {
+      "id": 3,
+      "slug": "muhandislik-tarmoqlari",
+      "icon": "network",
+      "title": {
+        "uz": "Muhandislik tarmoqlari",
+        "ru": "Инженерные сети",
+        "en": "Engineering networks"
+      },
+      "summary": {
+        "uz": "Elektr ta'minoti, suv-kanalizatsiya, isitish-ventilatsiya tizimlarini loyihalash va o'rnatish.",
+        "ru": "Проектирование и монтаж систем электроснабжения, водоснабжения, отопления и вентиляции.",
+        "en": "Design and installation of power supply, water/sewage, heating and ventilation systems."
+      },
+      "description": {
+        "uz": "Obyektingiz uchun barcha muhandislik tizimlarini bir joydan buyurtma qilishingiz mumkin: elektr ta'minoti, suv-kanalizatsiya, isitish, ventilatsiya va konditsionerlash.\n\nTizimlar energiya tejamkorligi va foydalanish qulayligini hisobga olgan holda loyihalanadi.",
+        "ru": "Все инженерные системы для вашего объекта можно заказать в одном месте: электроснабжение, водоснабжение и канализация, отопление, вентиляция и кондиционирование.\n\nСистемы проектируются с учётом энергоэффективности и удобства эксплуатации.",
+        "en": "All engineering systems for your building can be ordered in one place: power supply, water and sewage, heating, ventilation and air conditioning.\n\nSystems are designed with energy efficiency and ease of use in mind."
+      },
+      "priceFrom": 1800000
+    },
+    {
+      "id": 4,
+      "slug": "rekonstruksiya",
+      "icon": "renovate",
+      "title": {
+        "uz": "Rekonstruksiya va ta'mirlash",
+        "ru": "Реконструкция и ремонт",
+        "en": "Renovation"
+      },
+      "summary": {
+        "uz": "Eski binolarni zamonaviy standartlarga moslashtirish, kapital va kosmetik ta'mirlash ishlari.",
+        "ru": "Приведение старых зданий к современным стандартам, капитальный и косметический ремонт.",
+        "en": "Bringing older buildings up to modern standards, from major overhauls to cosmetic refurbishment."
+      },
+      "description": {
+        "uz": "Mavjud binoning texnik holatini baholaymiz va uni zamonaviy talablarga mos ravishda qayta qurish bo'yicha yechim taklif qilamiz — konstruksiyani mustahkamlashdan tortib pardozgacha.",
+        "ru": "Оцениваем техническое состояние существующего здания и предлагаем решение по его модернизации в соответствии с современными требованиями — от усиления конструкций до чистовой отделки.",
+        "en": "We assess the technical condition of an existing building and propose a modernization solution to meet current standards — from structural reinforcement to finishing touches."
+      },
+      "priceFrom": 1200000
+    },
+    {
+      "id": 5,
+      "slug": "muhandislik-nazorati",
+      "icon": "shield",
+      "title": {
+        "uz": "Muhandislik nazorati",
+        "ru": "Инженерный надзор",
+        "en": "Engineering supervision"
+      },
+      "summary": {
+        "uz": "Boshqa pudratchi bajarayotgan qurilishni mustaqil nazorat qilish va texnik konsalting.",
+        "ru": "Независимый технический надзор за строительством, выполняемым другим подрядчиком, и консалтинг.",
+        "en": "Independent technical supervision of construction carried out by another contractor, plus consulting."
+      },
+      "description": {
+        "uz": "Agar qurilishni boshqa pudratchi olib borayotgan bo'lsa, biz sizning manfaatlaringizni himoya qiluvchi mustaqil muhandis sifatida ishtirok etamiz: hisobotlar, hajmlarni tekshirish, sifat nazorati.",
+        "ru": "Если строительство ведёт другой подрядчик, мы выступаем в роли независимого инженера, защищающего ваши интересы: отчётность, проверка объёмов, контроль качества.",
+        "en": "If construction is being carried out by another contractor, we act as an independent engineer protecting your interests: reporting, quantity verification, quality control."
+      },
+      "priceFrom": 900000
+    },
+    {
+      "id": 6,
+      "slug": "interyer-dizayn",
+      "icon": "design",
+      "title": {
+        "uz": "Interyer dizayni",
+        "ru": "Дизайн интерьера",
+        "en": "Interior design"
+      },
+      "summary": {
+        "uz": "Turar-joy va ofis xonalari uchun zamonaviy interyer loyihalari — 3D vizualizatsiya bilan.",
+        "ru": "Современные проекты интерьера для жилых и офисных помещений — с 3D-визуализацией.",
+        "en": "Modern interior projects for homes and offices — with 3D visualization."
+      },
+      "description": {
+        "uz": "Xonaning funksional yechimidan tortib materiallar va yorug'lik dizayniga qadar — to'liq interyer loyihasini 3D vizualizatsiya bilan taqdim etamiz.",
+        "ru": "От функционального решения помещения до подбора материалов и освещения — предоставляем полный проект интерьера с 3D-визуализацией.",
+        "en": "From the functional layout of a space to material and lighting selection — we deliver a complete interior project with 3D visualization."
+      },
+      "priceFrom": 450000
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "slug": "zilol-turar-joy-majmuasi",
+      "category": "residential",
+      "year": 2025,
+      "location": {
+        "uz": "Toshkent sh., Yunusobod tumani",
+        "ru": "г. Ташкент, Юнусабадский район",
+        "en": "Tashkent, Yunusabad district"
+      },
+      "title": {
+        "uz": "\"Zilol\" turar-joy majmuasi",
+        "ru": "ЖК «Зилол»",
+        "en": "\"Zilol\" residential complex"
+      },
+      "summary": {
+        "uz": "9 qavatli 3 blokdan iborat turar-joy majmuasi, 120 xonadon",
+        "ru": "Жилой комплекс из 3 блоков по 9 этажей, 120 квартир",
+        "en": "A 3-block, 9-storey residential complex with 120 apartments"
+      },
+      "description": {
+        "uz": "Loyihalashdan topshirishgacha to'liq tsikl bo'yicha bajarilgan obyekt. Zamonaviy energiya tejamkor tizimlar, yopiq hovli va yer osti avtoturargoh bilan jihozlangan.",
+        "ru": "Объект реализован полным циклом — от проектирования до сдачи. Оснащён современными энергоэффективными системами, закрытым двором и подземным паркингом.",
+        "en": "Delivered full-cycle — from design to handover. Fitted with modern energy-efficient systems, an enclosed courtyard and underground parking."
+      }
+    },
+    {
+      "id": 2,
+      "slug": "tex-park-ofis-binosi",
+      "category": "commercial",
+      "year": 2024,
+      "location": {
+        "uz": "Toshkent sh., Mirzo Ulug'bek tumani",
+        "ru": "г. Ташкент, Мирзо-Улугбекский район",
+        "en": "Tashkent, Mirzo Ulugbek district"
+      },
+      "title": {
+        "uz": "\"Tex Park\" ofis binosi",
+        "ru": "Офисное здание «Тех Парк»",
+        "en": "\"Tech Park\" office building"
+      },
+      "summary": {
+        "uz": "6 qavatli zamonaviy ofis binosi, umumiy maydoni 4 500 m²",
+        "ru": "Современное 6-этажное офисное здание площадью 4 500 м²",
+        "en": "A modern 6-storey office building, 4,500 m² total area"
+      },
+      "description": {
+        "uz": "IT-kompaniyalar uchun mo'ljallangan zamonaviy ofis markazi. Ochiq planirovka, markazlashgan konditsionerlash va aqlli yoritish tizimi bilan jihozlangan.",
+        "ru": "Современный офисный центр для IT-компаний. Открытая планировка, централизованное кондиционирование и система умного освещения.",
+        "en": "A modern office center designed for IT companies. Open-plan layout, centralized air conditioning and a smart lighting system."
+      }
+    },
+    {
+      "id": 3,
+      "slug": "vodiy-savdo-markazi-rekonstruksiyasi",
+      "category": "renovation",
+      "year": 2024,
+      "location": {
+        "uz": "Farg'ona viloyati",
+        "ru": "Ферганская область",
+        "en": "Fergana region"
+      },
+      "title": {
+        "uz": "\"Vodiy\" savdo markazi rekonstruksiyasi",
+        "ru": "Реконструкция ТЦ «Водий»",
+        "en": "\"Vodiy\" shopping center renovation"
+      },
+      "summary": {
+        "uz": "Eski savdo majmuasini to'liq rekonstruksiya qilish, 3 200 m²",
+        "ru": "Полная реконструкция торгового комплекса, 3 200 м²",
+        "en": "Full renovation of an older shopping complex, 3,200 m²"
+      },
+      "description": {
+        "uz": "Konstruksiyalarni mustahkamlash, fasadni yangilash va barcha muhandislik tarmoqlarini almashtirish ishlari bajarildi. Ish 4 oyda yakunlandi.",
+        "ru": "Выполнено усиление конструкций, обновление фасада и полная замена инженерных сетей. Работы завершены за 4 месяца.",
+        "en": "Structural reinforcement, facade renewal and a full replacement of engineering networks were carried out. Completed in 4 months."
+      }
+    },
+    {
+      "id": 4,
+      "slug": "logistika-ombori",
+      "category": "industrial",
+      "year": 2023,
+      "location": {
+        "uz": "Toshkent viloyati, Qibray tumani",
+        "ru": "Ташкентская область, Кибрайский район",
+        "en": "Tashkent region, Kibray district"
+      },
+      "title": {
+        "uz": "Logistika ombor majmuasi",
+        "ru": "Логистический складской комплекс",
+        "en": "Logistics warehouse complex"
+      },
+      "summary": {
+        "uz": "8 000 m² yopiq ombor, yuk mashinalari uchun 12 ta doklar",
+        "ru": "Крытый склад 8 000 м² с 12 доками для грузовиков",
+        "en": "An 8,000 m² enclosed warehouse with 12 truck docks"
+      },
+      "description": {
+        "uz": "Sanoat konstruksiyalarni o'rnatishdan tortib avtomatlashtirilgan darvozalar va yong'inga qarshi tizimlargacha bo'lgan ishlarni o'z ichiga oldi.",
+        "ru": "Работы включали монтаж промышленных конструкций, автоматических ворот и систем противопожарной защиты.",
+        "en": "Work included installing industrial structures, automated gates and fire-protection systems."
+      }
+    },
+    {
+      "id": 5,
+      "slug": "oila-uyi-qibray",
+      "category": "residential",
+      "year": 2023,
+      "location": {
+        "uz": "Toshkent viloyati, Qibray tumani",
+        "ru": "Ташкентская область, Кибрайский район",
+        "en": "Tashkent region, Kibray district"
+      },
+      "title": {
+        "uz": "Zamonaviy oilaviy uy",
+        "ru": "Современный частный дом",
+        "en": "Modern family house"
+      },
+      "summary": {
+        "uz": "2 qavatli, 320 m² individual turar-joy uyi",
+        "ru": "Двухэтажный частный дом площадью 320 м²",
+        "en": "A 2-storey, 320 m² private house"
+      },
+      "description": {
+        "uz": "Mijozning individual talablariga mos ravishda loyihalangan va qurib topshirilgan. Interyer dizayni ham bizning jamoamiz tomonidan ishlab chiqildi.",
+        "ru": "Спроектирован и построен с учётом индивидуальных пожеланий заказчика. Дизайн интерьера также разработан нашей командой.",
+        "en": "Designed and built to the client's individual requirements. The interior design was also developed by our team."
+      }
+    },
+    {
+      "id": 6,
+      "slug": "sport-majmuasi",
+      "category": "commercial",
+      "year": 2022,
+      "location": {
+        "uz": "Samarqand sh.",
+        "ru": "г. Самарканд",
+        "en": "Samarkand"
+      },
+      "title": {
+        "uz": "Ko'p funksiyali sport majmuasi",
+        "ru": "Многофункциональный спортивный комплекс",
+        "en": "Multi-purpose sports complex"
+      },
+      "summary": {
+        "uz": "2 100 m², basseyn va sport zallarini o'z ichiga oladi",
+        "ru": "2 100 м², включает бассейн и спортивные залы",
+        "en": "2,100 m², including a pool and sports halls"
+      },
+      "description": {
+        "uz": "Murakkab muhandislik yechimlari (basseyn suv tizimi, katta oraliqli metall konstruksiyalar) talab qilingan loyiha muvaffaqiyatli yakunlandi.",
+        "ru": "Проект потребовал сложных инженерных решений (система водоподготовки бассейна, металлоконструкции большого пролёта) и был успешно завершён.",
+        "en": "The project required complex engineering solutions (pool water treatment system, long-span steel structures) and was completed successfully."
+      }
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "slug": "qurilish-narxiga-nima-tasir-qiladi",
+      "date": "2026-06-12",
+      "author": "INNOTEK INVEST",
+      "title": {
+        "uz": "Qurilish narxiga nima ta'sir qiladi?",
+        "ru": "Что влияет на стоимость строительства?",
+        "en": "What affects construction cost?"
+      },
+      "excerpt": {
+        "uz": "Loyiha narxini shakllantiruvchi asosiy omillar: materiallar, maydon, qavatlar soni va muhandislik murakkabligi.",
+        "ru": "Основные факторы, формирующие стоимость проекта: материалы, площадь, этажность и сложность инженерии.",
+        "en": "The main factors that shape a project's price: materials, area, number of floors and engineering complexity."
+      },
+      "content": {
+        "uz": "Qurilish narxi ko'plab omillarga bog'liq: qurilish maydoni, qavatlar soni, tanlangan materiallar sifati, muhandislik tizimlarining murakkabligi va joylashuv.\n\nO'rtacha hisobda, turar-joy binosi qurilishi 1 m² uchun 2,5–4,5 million so'mni tashkil etadi, bu esa pardozlash darajasiga bog'liq. Aniq narxni bilish uchun kalkulyatorimizdan foydalaning yoki mutaxassisimiz bilan bog'laning.",
+        "ru": "Стоимость строительства зависит от множества факторов: площади застройки, этажности, качества выбранных материалов, сложности инженерных систем и расположения участка.\n\nВ среднем строительство жилого дома обходится в 2,5–4,5 млн сум за м², в зависимости от уровня отделки. Чтобы узнать точную стоимость, воспользуйтесь калькулятором или свяжитесь с нашим специалистом.",
+        "en": "Construction cost depends on many factors: building footprint, number of floors, quality of chosen materials, complexity of engineering systems, and location.\n\nOn average, building a residential house costs 2.5–4.5 million UZS per m², depending on the finishing level. Use our calculator or contact our specialist to get an exact price."
+      }
+    },
+    {
+      "id": 2,
+      "slug": "loyiha-hujjatlarini-tayyorlash-bosqichlari",
+      "date": "2026-05-03",
+      "author": "INNOTEK INVEST",
+      "title": {
+        "uz": "Loyiha hujjatlarini tayyorlash bosqichlari",
+        "ru": "Этапы подготовки проектной документации",
+        "en": "Stages of preparing project documentation"
+      },
+      "excerpt": {
+        "uz": "Bosh reja tasdiqlanishidan davlat ekspertizasidan o'tishgacha — loyiha hujjatlari qanday tayyorlanadi.",
+        "ru": "От утверждения генплана до прохождения госэкспертизы — как готовится проектная документация.",
+        "en": "From master plan approval to state expert review — how project documentation gets prepared."
+      },
+      "content": {
+        "uz": "1) Dastlabki tahlil va tuproq-geologik izlanishlar. 2) Bosh reja va arxitektura kontseptsiyasi. 3) Konstruktiv va muhandislik bo'limlari. 4) Smeta hujjatlari. 5) Davlat ekspertizasidan o'tkazish.\n\nHar bir bosqich vaqt talab qiladi, shuning uchun loyihani erta boshlash tavsiya etiladi.",
+        "ru": "1) Предварительный анализ и инженерно-геологические изыскания. 2) Генплан и архитектурная концепция. 3) Конструктивный и инженерный разделы. 4) Сметная документация. 5) Прохождение государственной экспертизы.\n\nКаждый этап требует времени, поэтому проект рекомендуется начинать заранее.",
+        "en": "1) Preliminary analysis and geotechnical survey. 2) Master plan and architectural concept. 3) Structural and engineering sections. 4) Cost estimate documentation. 5) State expert review.\n\nEach stage takes time, so it's best to start the project early."
+      }
+    },
+    {
+      "id": 3,
+      "slug": "muhandislik-nazorati-nima-uchun-kerak",
+      "date": "2026-03-20",
+      "author": "INNOTEK INVEST",
+      "title": {
+        "uz": "Muhandislik nazorati nima uchun kerak?",
+        "ru": "Зачем нужен инженерный надзор?",
+        "en": "Why do you need engineering supervision?"
+      },
+      "excerpt": {
+        "uz": "Mustaqil texnik nazorat sizni pudratchining sifatsiz ishlaridan qanday himoya qiladi.",
+        "ru": "Как независимый технический надзор защищает вас от некачественной работы подрядчика.",
+        "en": "How independent technical supervision protects you from a contractor's substandard work."
+      },
+      "content": {
+        "uz": "Ko'pincha buyurtmachilar qurilish jarayonini nazorat qilishga vaqt topa olmaydi. Mustaqil muhandis-nazoratchi ishlatilgan materiallar hajmi va sifatini, ishlarning loyihaga muvofiqligini tekshiradi hamda har oy hisobot beradi.\n\nBu xizmat, ayniqsa, buyurtmachi obyektdan uzoqda bo'lganda juda foydali.",
+        "ru": "Часто заказчики не успевают самостоятельно контролировать ход строительства. Независимый инженер технадзора проверяет объёмы и качество используемых материалов, соответствие работ проекту и ежемесячно предоставляет отчёт.\n\nЭта услуга особенно полезна, когда заказчик находится далеко от объекта.",
+        "en": "Clients often don't have time to personally oversee construction. An independent supervising engineer checks the quantity and quality of materials used, verifies that work matches the design, and reports monthly.\n\nThis service is especially useful when the client is far from the site."
+      }
+    },
+    {
+      "id": 4,
+      "slug": "qish-mavsumida-qurilish",
+      "date": "2026-01-15",
+      "author": "INNOTEK INVEST",
+      "title": {
+        "uz": "Qish mavsumida qurilish: nimalarga e'tibor berish kerak",
+        "ru": "Строительство зимой: на что обратить внимание",
+        "en": "Winter construction: what to watch out for"
+      },
+      "excerpt": {
+        "uz": "Past haroratda beton quyish va g'ishtin ishlarning o'ziga xos jihatlari.",
+        "ru": "Особенности заливки бетона и кладочных работ при низких температурах.",
+        "en": "The specifics of pouring concrete and masonry work in cold weather."
+      },
+      "content": {
+        "uz": "Qish mavsumida qurilish davom etishi mumkin, biroq beton va g'isht ishlari maxsus qo'shimchalar va isitish choralarini talab qiladi. Bizning brigadalarimiz -10°C gacha bo'lgan haroratda ham sifatli ishlashga tayyor.",
+        "ru": "Строительство может продолжаться и зимой, однако бетонные и кладочные работы требуют специальных добавок и мер по обогреву. Наши бригады готовы качественно работать даже при температуре до -10°C.",
+        "en": "Construction can continue through winter, but concrete and masonry work require special additives and heating measures. Our crews are equipped to work to a high standard down to -10°C."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "id": 1,
+      "question": {
+        "uz": "Loyihaning narxi qancha vaqtda hisoblanadi?",
+        "ru": "За сколько времени рассчитывается стоимость проекта?",
+        "en": "How long does it take to get a price quote?"
+      },
+      "answer": {
+        "uz": "Kalkulyator orqali taxminiy narxni darhol ko'rasiz, aniq smetani esa obyektga tashrifdan so'ng 24–48 soat ichida yuboramiz.",
+        "ru": "Через калькулятор вы сразу видите ориентировочную стоимость, а точную смету присылаем в течение 24–48 часов после выезда на объект.",
+        "en": "Through the calculator you see a rough estimate instantly; we send the exact quote within 24–48 hours after visiting the site."
+      }
+    },
+    {
+      "id": 2,
+      "question": {
+        "uz": "Qanday kafolat berasiz?",
+        "ru": "Какую гарантию вы даёте?",
+        "en": "What warranty do you offer?"
+      },
+      "answer": {
+        "uz": "Bajarilgan qurilish-montaj ishlariga 5 yilgacha, konstruksiyaviy yechimlarga esa 10 yilgacha kafolat beramiz.",
+        "ru": "На выполненные строительно-монтажные работы даём гарантию до 5 лет, на конструктивные решения — до 10 лет.",
+        "en": "We provide up to 5 years of warranty on completed construction work, and up to 10 years on structural solutions."
+      }
+    },
+    {
+      "id": 3,
+      "question": {
+        "uz": "Faqat loyihalash xizmatini buyurtma qilsam bo'ladimi?",
+        "ru": "Можно ли заказать только услугу проектирования?",
+        "en": "Can I order only the design service?"
+      },
+      "answer": {
+        "uz": "Ha, siz faqat loyihalash bosqichini, faqat qurilishni yoki to'liq tsiklni tanlashingiz mumkin.",
+        "ru": "Да, вы можете заказать только этап проектирования, только строительство или полный цикл.",
+        "en": "Yes, you can order only the design stage, only construction, or the full cycle."
+      }
+    },
+    {
+      "id": 4,
+      "question": {
+        "uz": "Qurilish qancha vaqt davom etadi?",
+        "ru": "Сколько длится строительство?",
+        "en": "How long does construction take?"
+      },
+      "answer": {
+        "uz": "Muddat obyekt hajmiga bog'liq: o'rtacha turar-joy uyi 6–9 oyda, tijorat binosi 9–14 oyda qurib topshiriladi.",
+        "ru": "Сроки зависят от объёма объекта: в среднем частный дом строится за 6–9 месяцев, коммерческое здание — за 9–14 месяцев.",
+        "en": "Timelines depend on the scope: on average a private house takes 6–9 months, a commercial building 9–14 months."
+      }
+    },
+    {
+      "id": 5,
+      "question": {
+        "uz": "Boshqa hududlarda ham ishlaysizlarmi?",
+        "ru": "Работаете ли вы в других регионах?",
+        "en": "Do you work in other regions?"
+      },
+      "answer": {
+        "uz": "Ha, Toshkent shahridan tashqari O'zbekistonning barcha viloyatlarida loyihalarni amalga oshiramiz.",
+        "ru": "Да, помимо Ташкента мы реализуем проекты во всех областях Узбекистана.",
+        "en": "Yes, besides Tashkent we carry out projects in all regions of Uzbekistan."
+      }
+    },
+    {
+      "id": 6,
+      "question": {
+        "uz": "To'lov qanday tartibda amalga oshiriladi?",
+        "ru": "Как происходит оплата?",
+        "en": "How does payment work?"
+      },
+      "answer": {
+        "uz": "To'lov bosqichma-bosqich, bajarilgan ish hajmiga qarab amalga oshiriladi. Shartnomada barcha shartlar aniq belgilanadi.",
+        "ru": "Оплата производится поэтапно, в соответствии с объёмом выполненных работ. Все условия чётко прописываются в договоре.",
+        "en": "Payment is made in stages, according to the volume of work completed. All terms are clearly specified in the contract."
+      }
+    }
+  ],
+  "vacancies": [
+    {
+      "id": 1,
+      "slug": "muhandis-konstruktor",
+      "active": true,
+      "title": {
+        "uz": "Muhandis-konstruktor",
+        "ru": "Инженер-конструктор",
+        "en": "Design & construction engineer"
+      },
+      "location": {
+        "uz": "Toshkent sh.",
+        "ru": "г. Ташкент",
+        "en": "Tashkent"
+      },
+      "type": {
+        "uz": "To'liq stavka",
+        "ru": "Полная занятость",
+        "en": "Full-time"
+      },
+      "description": {
+        "uz": "Turar-joy va tijorat binolari uchun konstruktiv qismlarni loyihalash, hisob-kitoblarni bajarish, chizmalarni tayyorlash.",
+        "ru": "Проектирование конструктивных разделов жилых и коммерческих зданий, выполнение расчётов, подготовка чертежей.",
+        "en": "Designing structural sections for residential and commercial buildings, performing calculations, preparing drawings."
+      },
+      "requirements": {
+        "uz": "Oliy muhandislik ta'limi, AutoCAD/Revit bilimi, kamida 2 yillik tajriba.",
+        "ru": "Высшее инженерное образование, знание AutoCAD/Revit, опыт работы от 2 лет.",
+        "en": "Higher engineering education, knowledge of AutoCAD/Revit, at least 2 years of experience."
+      }
+    },
+    {
+      "id": 2,
+      "slug": "prorab",
+      "active": true,
+      "title": {
+        "uz": "Prorab (qurilish ishlari boshqaruvchisi)",
+        "ru": "Прораб",
+        "en": "Site foreman"
+      },
+      "location": {
+        "uz": "Toshkent va viloyatlar",
+        "ru": "Ташкент и области",
+        "en": "Tashkent and regions"
+      },
+      "type": {
+        "uz": "To'liq stavka",
+        "ru": "Полная занятость",
+        "en": "Full-time"
+      },
+      "description": {
+        "uz": "Qurilish maydonchasida ishlarni tashkil etish va nazorat qilish, brigadalar bilan ishlash, hisobotlarni yuritish.",
+        "ru": "Организация и контроль работ на строительной площадке, работа с бригадами, ведение отчётности.",
+        "en": "Organizing and supervising work on the construction site, managing crews, keeping reports."
+      },
+      "requirements": {
+        "uz": "Qurilish sohasida kamida 3 yillik tajriba, jamoani boshqara olish qobiliyati.",
+        "ru": "Опыт работы в строительстве от 3 лет, умение управлять командой.",
+        "en": "At least 3 years of construction experience, ability to manage a team."
+      }
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "author": "Aziz Rahimov",
+      "role": {
+        "uz": "Xususiy mijoz",
+        "ru": "Частный клиент",
+        "en": "Private client"
+      },
+      "text": {
+        "uz": "Uyimizni loyihalashdan topshirishgacha to'liq INNOTEK INVEST jamoasi bajardi. Muddatlarga aniq rioya qilishdi, natija kutganimizdan ham yaxshi chiqdi.",
+        "ru": "Команда INNOTEK INVEST спроектировала и построила наш дом от начала до конца. Сроки соблюдались точно, результат превзошёл ожидания.",
+        "en": "The INNOTEK INVEST team designed and built our house from start to finish. They kept to deadlines precisely, and the result exceeded our expectations."
+      }
+    },
+    {
+      "id": 2,
+      "author": "Dilnoza Yusupova",
+      "role": {
+        "uz": "\"Tex Park\" loyihasi buyurtmachisi",
+        "ru": "Заказчик проекта «Тех Парк»",
+        "en": "Client, \"Tech Park\" project"
+      },
+      "text": {
+        "uz": "Ofis binosini qurishda muhandislik yechimlarining sifatini alohida ta'kidlashni istardim. Jamoa har doim aloqada bo'lib, savollarga tezkor javob berishdi.",
+        "ru": "Хочу отдельно отметить качество инженерных решений при строительстве офисного здания. Команда всегда была на связи и быстро отвечала на вопросы.",
+        "en": "I want to especially highlight the quality of engineering solutions during the office building construction. The team was always reachable and responded quickly."
+      }
+    },
+    {
+      "id": 3,
+      "author": "Sherzod Nazarov",
+      "role": {
+        "uz": "\"Vodiy\" savdo markazi direktori",
+        "ru": "Директор ТЦ «Водий»",
+        "en": "Director, \"Vodiy\" shopping center"
+      },
+      "text": {
+        "uz": "Rekonstruksiya ishlari savdo markazi ishlashiga deyarli xalaqit bermadi — jamoa ishni bosqichma-bosqich, aniq rejа bo'yicha olib bordi.",
+        "ru": "Работы по реконструкции почти не мешали работе торгового центра — команда действовала поэтапно, по чёткому плану.",
+        "en": "The renovation work barely disrupted the shopping center's operations — the team proceeded in stages, according to a clear plan."
+      }
+    }
+  ],
+  "experts": [
+    {
+      "id": 1,
+      "name": "Sarvar Toshkentov",
+      "role": {
+        "uz": "Bosh direktor",
+        "ru": "Генеральный директор",
+        "en": "CEO"
+      },
+      "bio": {
+        "uz": "Qurilish sohasida 15 yildan ortiq tajribaga ega, kompaniyaning strategik yo'nalishlarini boshqaradi.",
+        "ru": "Более 15 лет опыта в строительной отрасли, руководит стратегическим развитием компании.",
+        "en": "Over 15 years of experience in construction, oversees the company's strategic direction."
+      }
+    },
+    {
+      "id": 2,
+      "name": "Dilshod Aliyev",
+      "role": {
+        "uz": "Bosh muhandis",
+        "ru": "Главный инженер",
+        "en": "Chief engineer"
+      },
+      "bio": {
+        "uz": "Konstruktiv yechimlar va muhandislik tizimlari bo'yicha mas'ul, barcha loyihalarni texnik jihatdan nazorat qiladi.",
+        "ru": "Отвечает за конструктивные решения и инженерные системы, технически курирует все проекты.",
+        "en": "Responsible for structural solutions and engineering systems, technically oversees all projects."
+      }
+    },
+    {
+      "id": 3,
+      "name": "Malika Karimova",
+      "role": {
+        "uz": "Bosh arxitektor",
+        "ru": "Главный архитектор",
+        "en": "Chief architect"
+      },
+      "bio": {
+        "uz": "Arxitektura kontseptsiyalarini ishlab chiqadi, zamonaviy va funksional makon yechimlariga ixtisoslashgan.",
+        "ru": "Разрабатывает архитектурные концепции, специализируется на современных и функциональных пространственных решениях.",
+        "en": "Develops architectural concepts, specializing in modern and functional spatial solutions."
+      }
+    },
+    {
+      "id": 4,
+      "name": "Javlon Yusupov",
+      "role": {
+        "uz": "Loyihalar menejeri",
+        "ru": "Менеджер проектов",
+        "en": "Project manager"
+      },
+      "bio": {
+        "uz": "Loyiha muddatlari va byudjetini boshqaradi, mijoz bilan aloqani muvofiqlashtiradi.",
+        "ru": "Управляет сроками и бюджетом проектов, координирует взаимодействие с заказчиком.",
+        "en": "Manages project timelines and budgets, coordinates communication with clients."
+      }
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "Namuna Group"
+    },
+    {
+      "id": 2,
+      "name": "Vodiy Retail"
+    },
+    {
+      "id": 3,
+      "name": "Tex Park Invest"
+    },
+    {
+      "id": 4,
+      "name": "Qibray Development"
+    },
+    {
+      "id": 5,
+      "name": "Zilol Holding"
+    }
+  ],
+  "messages": [],
+  "calcLeads": [],
+  "vacancyApplications": []
+}
